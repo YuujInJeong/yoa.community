@@ -1,0 +1,12 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "첫 번째 게시글",
+        "content": "내용입니다.",
+        "author": "user1",
+        "createdAt": "2024-10-31"
+      }
+    ]
+   } CopyRetryClaude does not have the ability to run the code it generates yet.Claude can make mistakes. Please double-check responses.
+   

@@ -1,0 +1,11 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "user1",
+        "password": "hashedPassword123",
+        "email": "user1@example.com",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      }
+    ]
+  }

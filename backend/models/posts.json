@@ -1,0 +1,14 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "첫 번째 게시글입니다",
+        "content": "환영합니다!",
+        "author": "user1",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "views": 0,
+        "comments": [],
+        "likes": 0
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>커뮤니티</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="title">커뮤니티</h1>
+        <h1 class="subtitle"><strong>로그인</strong></h1>
+            
+    <div class="inputBox">
+        <label for="id">이메일</label>
+        <input 
+            type="email" 
+            name="id" 
+            id="id" 
+            placeholder="이메일을 입력하세요"
+            autocomplete="off"
+        >
+        <p class="helperText" id="emailHelper"></p> <!-- Add this line -->
+    </div>
+    <div class="inputBox">
+        <label for="pw">비밀번호</label>
+        <input 
+            type="password" 
+            name="pw" 
+            id="pw" 
+            placeholder="비밀번호를 입력하세요"
+        >
+        <p class="helperText" id="pwHelper"></p> <!-- Add this line -->
+    </div>
+
+        <div class="buttons">
+            <button id="login" disabled>로그인</button>
+            <a href="signup.html">회원가입</a>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
+
